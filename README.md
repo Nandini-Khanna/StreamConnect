@@ -86,30 +86,30 @@ This project demonstrates a fullstack, real-time web application with scalable a
 
 ## **Setup & Installation**
 
-###1. **Clone Repository**  
+- **Clone Repository**  
 ```bash
 git clone https://github.com/Nandini-Khanna/StreamConnect.git
 cd StreamConnect
-###2. **Backend Setup**
+-2. **Backend Setup**
 
 cd server
 npm install
 cp .env.example .env
 # Add your MongoDB URI and JWT secret in .env
 npm run dev
-### 3. **Frontend Setup**
+- 3. **Frontend Setup**
 
 cd client
 npm install
 npm start
 
-###4.**Access Application**
+-4.**Access Application**
 
 Open http://localhost:3000 in browser
 
 
 ---
-## **Architecture & Flow Diagram**
+ **Architecture & Flow Diagram**
 +----------------+         HTTP Requests        +----------------+
 |   React Frontend|  ------------------------> | Express Backend|
 |  (UI + Chat +  | <------------------------  | (Controllers  |
